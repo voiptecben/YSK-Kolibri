@@ -50,7 +50,7 @@ class DefaultThemeHook(theme_hook.ThemeHook):
                 theme_hook.BACKGROUND: static("background.jpg"),
                 theme_hook.BACKGROUND_IMG_CREDIT: "Gerald Njoroge",
                 theme_hook.SCRIM_OPACITY: 0.7,
-                theme_hook.TITLE: "Young Scientists Kenya Kolibri"
+                theme_hook.TITLE: "Young Scientists Kenya Kolibri",
                 theme_hook.TOP_LOGO: {
                     theme_hook.IMG_SRC: None,  # use default Kolibri bird
                     theme_hook.IMG_STYLE: "padding-left: 64px; padding-right: 64px; margin-bottom: 8px; margin-top: 8px",
@@ -62,7 +62,7 @@ class DefaultThemeHook(theme_hook.ThemeHook):
             },
             # side-nav config
             theme_hook.SIDE_NAV: {
-                theme_hook.TITLE: "Young Scientists Kenya Kolibri"
+                theme_hook.TITLE: "Young Scientists Kenya Kolibri",
                 theme_hook.BRANDED_FOOTER: {},
                 theme_hook.SHOW_K_FOOTER_LOGO: True,
             },
