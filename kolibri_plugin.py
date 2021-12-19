@@ -48,36 +48,24 @@ class DefaultThemeHook(theme_hook.ThemeHook):
             # sign-in page config
             theme_hook.SIGN_IN: {
                 theme_hook.BACKGROUND: static("background.jpg"),
-                theme_hook.BACKGROUND_IMG_CREDIT: "Thomas Van Den Driessche",
+                theme_hook.BACKGROUND_IMG_CREDIT: "Gerald Njoroge",
                 theme_hook.SCRIM_OPACITY: 0.7,
-                theme_hook.TITLE: None,  # use default: "Kolibri"
+                theme_hook.TITLE: "Young Scientists Kenya Kolibri"
                 theme_hook.TOP_LOGO: {
                     theme_hook.IMG_SRC: None,  # use default Kolibri bird
                     theme_hook.IMG_STYLE: "padding-left: 64px; padding-right: 64px; margin-bottom: 8px; margin-top: 8px",
                     theme_hook.IMG_ALT: None,
                 },
-                theme_hook.SHOW_POWERED_BY: False,
+                theme_hook.SHOW_POWERED_BY: True,
                 theme_hook.SHOW_TITLE: True,
                 theme_hook.SHOW_K_FOOTER_LOGO: False,
             },
             # side-nav config
             theme_hook.SIDE_NAV: {
-                theme_hook.TITLE: None,  # use default: "Kolibri"
+                theme_hook.TITLE: "Young Scientists Kenya Kolibri"
                 theme_hook.BRANDED_FOOTER: {},
                 theme_hook.SHOW_K_FOOTER_LOGO: True,
             },
             # app bar config
             theme_hook.APP_BAR: {theme_hook.TOP_LOGO: None},
         }
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
