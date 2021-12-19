@@ -18,3 +18,8 @@ kolibri manage importcontent network a9b25ac9814742c883ce1b0579448337
 Warning
 
 When you import channels from the command line, you still must use the 32 digit channel ID, as the command will not work with the token. Make sure to receive the correct channel ID from the person who curated the unlisted channel you need to import, or refer to Kolibri Studio user guide how to find it in Studio user interface, if you have channel editor access
+
+sudo rm YSK-Kolibri -rf
+sudo git clone https://github.com/voiptecben/YSK-Kolibri
+sudo cp ./YSK-Kolibri/kolibri_plugin.py /usr/lib/python3/dist-packages/kolibri/plugins/default_theme/kolibri_plugin.py
+sudo service kolibri restart
