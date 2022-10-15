@@ -1,5 +1,9 @@
 Flash Kolibri
 Boot up
+login pi/kolibrifly
+sudo raspi-config
+Set Timezone
+Set Password
 
 https://github.com/voiptecben/YSK-Kolibri/archive/main.zip
 
