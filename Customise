@@ -1,4 +1,5 @@
-Flash Kolibri
+Procedure to install and customise Kolibri server 
+Flash Kolibri Pi SD card
 Boot up
 login pi/kolibrifly
 sudo raspi-config
