@@ -4,10 +4,19 @@ login pi/kolibrifly
 sudo raspi-config
 Set Timezone
 Set Password
+Connect to kolibri wifi
+Access 10.10.10.10
+Run setup
 
-https://github.com/voiptecben/YSK-Kolibri/archive/main.zip
+
+
+
+sudo wget https://github.com/voiptecben/YSK-Kolibri/archive/main.zip
+unzip main.zip
+cd YSK-Kolibri-main
+sudo cp YSKnakcrop.jpg /usr/lib/python3/dist-packages/kolibri/plugins/default_theme/static/background.jpg
 
 sudo cp YSKLogo.svg /usr/lib/python3/dist-packages/kolibri/core/static/kolibri.core.default_frontend/kolibri-logo-625360a31b0628f83d4ca2ef861dbd30.svg
-sudo cp YSKnakcrop.jpg /usr/lib/python3/dist-packages/kolibri/plugins/default_theme/static/background.jpg
+
 sudo cp kolibri_plugin.py /usr/lib/python3/dist-packages/kolibri/plugins/default_theme/kolibri_plugin.py
 reboot
