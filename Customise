@@ -17,6 +17,9 @@ cd YSK-Kolibri-main
 sudo cp YSKnakcrop.jpg /usr/lib/python3/dist-packages/kolibri/plugins/default_theme/static/background.jpg
 
 sudo cp YSKLogo.svg /usr/lib/python3/dist-packages/kolibri/core/static/kolibri.core.default_frontend/kolibri-logo-625360a31b0628f83d4ca2ef861dbd30.svg
+sudo mv /usr/lib/python3/dist-packages/kolibri/core/static/kolibri.core.default_frontend/kolibri-logo-625360a31b0628f83d4ca2ef861dbd30.svg.gz /usr/lib/python3/dist-packages/kolibri/core/static/kolibri.core.default_frontend/kolibri-logo-625360a31b0628f83d4ca2ef861dbd30.svg.gz.bak
+
+
 
 sudo cp kolibri_plugin.py /usr/lib/python3/dist-packages/kolibri/plugins/default_theme/kolibri_plugin.py
 reboot
