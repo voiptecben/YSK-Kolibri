@@ -5,13 +5,14 @@ login pi/kolibrifly
 sudo raspi-config
 Set Timezone
 Set Password
+Hint first pw
 Connect to kolibri wifi
 Access 10.10.10.10
 Run setup
 sudo wget https://github.com/voiptecben/YSK-Kolibri/archive/main.zip
 unzip main.zip
+vi .kolibri/options.ini
 cd YSK-Kolibri-main
-vi ./kolibri/options.ini
 Set Languages
 [Deployment]
 LANGUAGES = 'en', 'sw-tz'
